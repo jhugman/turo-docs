@@ -5,7 +5,5 @@ Calculator apps are really interesting. We built a calculator called Turo. It's 
 
 More info
 ---------
-* [The Science Bit](We-Built-A-Language)
-* [FAQ](FAQ)
-* [Language introduction](Language introduction)
+[See this](https://github.com/jhugman/turo-docs/wiki).
 
