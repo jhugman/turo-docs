@@ -1,0 +1,20 @@
+Spolky's Equity Split Calculator
+
+unit shares : Equity
+unit person : Person
+
+numShares = 10000 shares
+
+// Founders get equal share of 50% of the shares.
+layer0_shares = 0.5 * numShares
+layer0_founders = 2 person
+layer0_each_get = layer0_shares / layer0_founders
+
+// 5 layers (who join in the next 5 rounds), 
+layerN_shares = 0.1 * numShares
+layerN_newPeople = 5 person
+layerN_each_get = layerN_shares / layerN_newPeople
+
+Investment increases the number of shares, thus reducing the proportion of the company that each share represents.
+
+Source: https://gist.github.com/isaacsanders/1653078

@@ -1,0 +1,10 @@
+unit GBP : Currency
+
+workingYear = 40h/wk * 40 wk
+
+manager = 50000 GBP / workingYear
+grunt = 20000 GBP / workingYear
+
+attendees = 1 * manager + 5 * grunt
+duration = 2 h
+costOfMeeting = attendees * duration
