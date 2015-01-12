@@ -1,0 +1,11 @@
+include "fundamental";
+
+// Nautical mile
+// https://en.wikipedia.org/wiki/Nautical_mile
+unit nmi NM (Maritime) : 1852m;
+
+// https://en.wikipedia.org/wiki/Fathom
+// Strictly, 2 yd, but the above link defines it exactly in m.
+// Let's not include "imperial" here.
+unit fathom (Maritime) : 1.8288 m;
+unit knots kts (Maritime) : 1 nmi/h;

@@ -1,0 +1,12 @@
+unit N newtons (Science) : Force, 1 kg m/s^2;
+
+unit Pa pascals (Science) : Pressure, 1 N/m^2;
+
+unit J joules (Science) : Energy, 1 N m;
+
+unit W Watt (Science) : Power, 1 J/s;
+unit MW megawatt : 1e6 W;
+unit kW kilowatt : 1e3 W;
+
+unit A amp (Science) : Current;
+unit C coloumb (Science) : Charge, 1 A s;
