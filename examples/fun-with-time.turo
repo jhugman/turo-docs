@@ -1,0 +1,15 @@
+NANO_CENTURY = 1e-9 * 100 year in s
+
+PI_SECONDS = pi s
+(NANO_CENTURY / PI_SECONDS - 1) * 100
+i.e. pi seconds is equal to a nano-century, to an accuracy of 0.4%
+
+SQRT_10_SECONDS = (sqrt 10) s
+(SQRT_10_SECONDS / NANO_CENTURY - 1) * 100
+i.e. sqrt(10) seconds is equal to a nano-century, to an accuracy of 0.3%
+
+unit megasecond : 1e6 s
+1 year - 32 megasecond in year
+i.e. a year is 32 mega-seconds to an accuracy of 1%
+
+Source: http://www.johndcook.com/blog/2010/10/14/duffs-rule/
