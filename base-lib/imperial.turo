@@ -24,7 +24,14 @@ unit 20 fl_oz floz : pint;
 // Speed
 unit mph (Imperial) : Speed, 1 mile/h;
 
+// Imperial Science
 include "science";
 
+// Energy, dimension taken from J.
 unit cal (Imperial) : 4.184 J;
 unit kcal : 1000 cal;
+
+// Pressure, dimension taken from Pa.
+unit mmHg (Imperial) : 133.322387415 Pa;
+unit atm (Imperial) : 1.01325e5 Pa;
+unit psi (Imperial) : 6.8948e3 Pa;
