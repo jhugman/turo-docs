@@ -1,0 +1,19 @@
+Monthly invoice
+
+Currency for invoice
+unit GBP: Currency
+
+Time-sheets for every week this month
+w1 = 3h + 5h + 8h + 7h + 5h
+w2 = 6h + 3h + 5h + 7h + 4h
+w3 = 3h + 4h + 6h + 2h + 3h
+w4 = 4h + 3h + 7h + 3h + 5h
+
+The amount of hours in a workday
+workday = 7.5h
+
+My daily rate
+dayrate = 550 GBP
+
+Invoice for the last four weeks
+( w1 + w2 + w3 + w4 ) / workday * dayrate
