@@ -4,3 +4,5 @@ include "imperial";
 include "design";
 include "science";
 
+include "computerscience"
+
