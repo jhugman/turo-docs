@@ -1,0 +1,37 @@
+import "fundamental";
+
+// Length
+unit yd yard yards (Imperial) : 0.9144 m;
+unit 3 ft foot feet : yd;
+unit 12 inch inches : ft;
+unit mile miles : 5280 ft;
+
+// Mass
+unit lb (Imperial) : 0.45359237 kg;
+unit st stone : 14 lb;
+unit hdwt hundredweight : 112 lb;
+unit ton : 2240 lb;
+unit 16 oz ounce : lb;
+
+// Area
+unit acre (Imperial) : Area, 43560 ft^2;
+
+// Volume
+unit gallon (Imperial) : Volume, 0.00454609 m^3;
+unit 8 pint pints : gallon;
+unit 20 fl_oz floz : pint;
+
+// Speed
+unit mph (Imperial) : Speed, 1 mile/h;
+
+// Imperial Science
+import "science";
+
+// Energy, dimension taken from J.
+unit cal (Imperial) : 4.184 J;
+unit kcal : 1000 cal;
+
+// Pressure, dimension taken from Pa.
+unit mmHg (Imperial) : 133.322387415 Pa;
+unit atm (Imperial) : 1.01325e5 Pa;
+unit psi (Imperial) : 6.8948e3 Pa;

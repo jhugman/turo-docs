@@ -1,0 +1,34 @@
+{
+  "name": "turo-docs",
+  "version": "1.0.0",
+  "description": "Documentation and configuration for the turo language.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhugman/turo-docs.git"
+  },
+  "keywords": [
+    "turo",
+    "turo-lang"
+  ],
+  "author": "@jhugman",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/jhugman/turo-docs/issues"
+  },
+  "homepage": "https://github.com/jhugman/turo-docs",
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "dependencies": {
+    "resolve": "^1.1.6"
+  }
+}
