@@ -12,7 +12,7 @@ module.exports = (function(){
   if (fs) {
     return require(nodeFs);
   } else {
-    return require('./lib/web-fs');
+    return require('./lib/web-fs-static');
   }
 })();
 
