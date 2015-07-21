@@ -21,7 +21,7 @@ unit A amp amps (Science) : Current;
 unit 1000 mA milliamp milliamps : A;
 
 // Charge
-unit C coloumb (Science) : Charge, 1 A s;
+unit C coulomb (Science) : Charge, 1 A s;
 
 // Potential Difference
 unit V volt volts (Science) : Potential, 1 W/A;
