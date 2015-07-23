@@ -12,9 +12,11 @@ unit min minute minutes : 60 s;
 unit h hour hours : 60 min;
 unit day day days : 24 h;
 unit wk week weeks : 7 day;
-unit yr year years : 365 day;
-
-// TODO Pressure, Force,
+// Julian Astronomical Year
+// https://en.wikipedia.org/wiki/Year
+unit yr year years : 365.25 day;
+// month is calendar month.
+unit 12 mo month months : year;
 
 // Mass
 unit kg kilogram kilograms (SI) : Mass;
