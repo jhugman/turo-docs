@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "rimraf build && webpack && cp documents/* build",
-    "postinstall": "npm run build"
+    "postinstall": "npm install && npm run build"
   },
   "repository": {
     "type": "git",
