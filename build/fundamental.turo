@@ -1,0 +1,34 @@
+// Keep all dimensions to a minimal set.
+// Put other units in other files with other unit schemes.
+// Length.
+unit m metre metres meter meters (SI) : Length;
+
+
+// Time
+unit s second seconds : Time;
+// TODO in order to be included with all unit schemes,
+ // but we'd like to filter these in some of them
+unit min minute minutes : 60 s;
+unit h hour hours : 60 min;
+unit day day days : 24 h;
+unit wk week weeks : 7 day;
+// Julian Astronomical Year
+// https://en.wikipedia.org/wiki/Year
+unit yr year years : 365.25 day;
+// month is calendar month.
+unit 12 mo month months : year;
+
+// Mass
+unit kg kilogram kilograms (SI) : Mass;
+
+// Angle
+unit deg degree degrees : Angle;
+// unit 2 * pi radians (SI) : 360 deg;
+unit 0.017453292519943295769236907684886127134428718885417254560971 rad radian radians (SI) : Angle, deg;
+
+// Constants
+const pi = 3.141592653589793238462643383279502884197169399375105820974944;
+const e = 2.7182818284590452353602874713526624977572470936999595;
+
+const true = (1 == 1);
+const false = !true;

@@ -1,0 +1,39 @@
+import "fundamental";
+
+// Force
+unit N newton newtons (Science) : Force, 1 kg m/s^2;
+
+// Pressure
+unit Pa pascal pascals (Science) : Pressure, 1 N/m^2;
+unit bar : 1e5 Pa;
+unit 1000 mbar millibar millibars : bar;
+
+// Energy
+unit J joule joules (Science) : Energy, 1 N m;
+
+// Power
+unit W Watt (Science) : Power, 1 J/s;
+unit MW megawatt : 1e6 W;
+unit kW kilowatt : 1e3 W;
+
+// Current
+unit A amp amps (Science) : Current;
+unit 1000 mA milliamp milliamps : A;
+
+// Charge
+unit C coulomb (Science) : Charge, 1 A s;
+
+// Potential Difference
+unit V volt volts (Science) : Potential, 1 W/A;
+unit 1000 kV kilovolt kilovolts: V;
+
+// Resistance
+unit ohm (Science) : Resistance, 1 V/A;
+
+// Constants
+
+// Speed of light in a vacuum.
+const c = 299792458 m/s;
+
+// Earth's gravity
+const g = 9.80665 m/s^2;

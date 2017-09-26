@@ -1,0 +1,16 @@
+// design.turo
+
+import "imperial";
+
+// it would be great if we tag operators and variables:
+// http://bjango.com/articles/soulver/
+
+
+// from http://static.zealous-studios.co.uk/projects/web_tests/PPI%20tests.html
+unit 72 pt (Design) : inch;
+unit picas pc : 12pt;
+
+// This is not the dimension of a physical pixel.
+unit px (Design) : 0.75 pt;
+
+const phi = (1 + sqrt 5) / 2;

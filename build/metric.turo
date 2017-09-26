@@ -1,0 +1,20 @@
+import "fundamental";
+
+unit m (Metric);
+
+unit km (Metric) : 1000 m;
+
+unit 100 cm (Metric) : m;
+unit 10 mm : cm;
+
+unit kg kilogram kilograms (Metric);
+unit 1000 g (Metric) : kg;
+unit tonne (Metric) : 1000 kg;
+unit 1000 mg : g;
+
+unit kph : Speed, 1 km/h;
+
+unit l litre litres liter liters : Volume, 1000 cm^3;
+unit 1000 ml : litre;
+
+unit ha hectare hectares (Metric) : Area, 10000 m^2;

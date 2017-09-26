@@ -1,0 +1,17 @@
+// definition based on http://de.wikipedia.org/wiki/Byte
+// you can do thinks like: 1GB / 3000 KB/s in min
+
+unit B byte bytes Byte : Information
+unit 8 bit bits : Byte
+
+unit kB kilobyte kilobytes KB kb : 1e3 Byte
+unit MB megabyte megabytes       : 1e6 Byte
+unit GB gigabyte gigabytes gb    : 1e9 Byte
+unit TB terabyte terabytes       : 1e12 Byte
+unit PB petabyte petabytes       : 1e15 Byte
+
+unit KiB kibibyte : 2e10 Byte
+unit MiB mibibyte : 1024 KiB
+unit GiB gibibyte : 1024 MiB
+unit TiB tebibyte : 1024 GiB
+
