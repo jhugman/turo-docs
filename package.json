@@ -2,12 +2,13 @@
   "name": "turo-docs",
   "version": "1.1.0",
   "description": "Documentation and configuration for the turo language.",
-  "main": "index.js",
+  "main": "build/index.js",
   "directories": {
     "example": "examples"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "rimraf build && webpack && cp documents/* build",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "raw-loader": "^0.5.1",
     "resolve": "^1.1.6",
+    "rimraf": "^2.6.2",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "webpack": "^3.6.0"
   }
