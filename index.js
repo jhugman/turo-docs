@@ -1,18 +1,17 @@
-'use strict';
+import app from './documents/app';
+import computerscience from './documents/computerscience';
+import design from './documents/design';
+import fundamental from './documents/fundamental';
+import imperial from './documents/imperial';
+import metric from './documents/metric';
+import science from './documents/science';
 
-module.exports = (function(){
-  var fs = "fs",
-      nodeFs = "./lib/node-fs";
-  try {
-    fs = require(fs);
-  } catch (e) {
-    fs = undefined;
-  }
-
-  if (fs) {
-    return require(nodeFs);
-  } else {
-    return require('./lib/web-fs-static');
-  }
-})();
-
+export {
+  app,
+  computerscience,
+  design,
+  fundamental,
+  imperial,
+  metric,
+  science
+}
